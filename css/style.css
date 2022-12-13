@@ -680,7 +680,7 @@ figure {
 }
 
 .photo-center {
-  max-width: 650px;
+  max-width: 80%;
   border-radius: 10px;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.399);
 }
@@ -1303,4 +1303,14 @@ figure {
   height: 100%;
   z-index: 9999;
   background: url(../images/hourglass.svg) center no-repeat #222222;
+}
+
+@media screen and (max-width: 530px) {
+  #fh5co-countdown .countdown {
+    font-size: 30px;
+  }
+
+  #fh5co-countdown .countdown span {
+    margin: 0 5px;
+  }
 }
